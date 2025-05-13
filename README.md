@@ -1,2 +1,2 @@
-# Django-Rest-Framework-Backend-Blog
-DRF code by Mehrdad Motaghian
+# DRF backend Blog
+by Mehrdad Motaghian

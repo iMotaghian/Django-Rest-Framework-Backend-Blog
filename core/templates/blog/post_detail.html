@@ -1,0 +1,9 @@
+<h1>{{ object.title }} or {{ post.title }}</h1>
+<p>{{ object.content }}</p>
+<p>Reporter: {{ object.author.first_name }} {{ object.author.last_name }}</p>
+<p>Published: {{ object.published_date|date }}</p>
+<p>Date: {{ now|date }}</p>
+<p>Date: {{ now }}</p>
+<a href="{% url 'blog:post-list' %}" >Back</a>
+<a href="{% url 'blog:post-Edit-UpdateView' pk=object.id %}" >Edit</a>
+<a href="{% url 'blog:post-DeleteView' pk=object.id %}" >Delete</a>
