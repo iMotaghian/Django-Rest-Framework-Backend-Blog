@@ -1,2 +1,37 @@
 # DRF backend Blog
-by Mehrdad Motaghian
+
+# general  modules
+django >3.2,<3.3
+python-decouple
+Pillow
+djangorestframework
+
+
+# third party modules
+markdown       
+django-filter  
+drf-yasg[validation]
+djangorestframework-simplejwt
+djoser
+django-cors-headers
+
+# deployment module
+gunicorn
+
+# email third party modules
+django-mail-templated
+
+# refactoring and tests
+black
+flake8
+pytest
+pytest-django
+Faker
+
+# background proccess and cache
+celery
+redis
+django-redis
+
+
+
